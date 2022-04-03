@@ -1,0 +1,78 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    text-shadow: 2px 3px 5px whitesmoke;
+    font-size: 1.25rem;
+    background: rgb(238, 174, 202);
+    background: linear-gradient(
+        90deg,
+        rgba(238, 174, 202, 1) 0%,
+        rgba(224, 176, 207, 1) 16%,
+        rgba(220, 87, 255, 1) 36%,
+        rgba(151, 176, 246, 1) 84%,
+        rgba(135, 190, 255, 1) 100%
+    );
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+.mainContent {
+    display: flex;
+    flex-wrap: wrap;
+}
+.formContainer {
+    width: 100vw;
+    margin: 10px, auto;
+    padding: 15px;
+}
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tableContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: space-around;
+    padding: 15px;
+}
+.definition {
+    justify-self: center;
+    align-self: center;
+    flex-wrap: wrap;
+    flex-basis: 720px;
+    line-height: 1.5;
+}
+table {
+    border-collapse: collapse;
+    border: 3px double black;
+    margin: 10px;
+    padding: 10px;
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    font-weight: 700;
+}
+th {
+    height: 60px;
+    border: 1px solid black;
+    padding: 15px;
+    background-color: #eeaeca;
+}
+tr,
+td {
+    height: 30px;
+    border: 1px dashed black;
+    padding: 10px;
+}
+td {
+    background-color: #dc57ff;
+}

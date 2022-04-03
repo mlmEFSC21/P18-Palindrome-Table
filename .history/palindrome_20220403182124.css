@@ -1,0 +1,64 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 1.25rem;
+    background-image: radial-gradient(circle, #35cac7 0%, #ca3538 33%, #82ca35 66%, #7d35ca 90%);
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+.mainContent {
+    display: flex;
+    flex-wrap: wrap;
+}
+.formContainer {
+    width: 100vw;
+    margin: 10px, auto;
+    padding: 15px;
+}
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tableContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: space-around;
+    padding: 15px;
+}
+.definition {
+    justify-self: center;
+    align-self: center;
+    flex-wrap: wrap;
+    flex-basis: 720px;
+    line-height: 1.5;
+}
+table {
+    border-collapse: collapse;
+    border: 3px double black;
+    margin: 10px;
+    padding: 10px;
+    width: 500px;
+    height: 400px;
+    text-align: center;
+}
+th {
+    height: 60px;
+    border: 1px solid black;
+    padding: 15px;
+}
+tr,
+td {
+    height: 30px;
+    border: 1px dashed black;
+    padding: 10px;
+}

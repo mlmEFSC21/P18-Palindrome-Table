@@ -1,0 +1,18 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+table {
+    border-collapse: collapse;
+    border: 3px double black;
+}
+th,
+tr {
+    border: 1px dashed black;
+}
+td {
+    border: 1px solid black;
+}

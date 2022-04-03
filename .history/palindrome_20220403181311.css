@@ -1,0 +1,69 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 1.25rem;
+}
+header {
+    display: flex;
+    background-color: pink;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+.mainContent {
+    display: flex;
+    flex-wrap: wrap;
+}
+.formContainer {
+    background-color: brown;
+    width: 100vw;
+    margin: 10px, auto;
+    padding: 15px;
+}
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tableContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: space-around;
+    padding: 15px;
+}
+.definition {
+    background-color: brown;
+    justify-self: center;
+    align-self: center;
+    flex-wrap: wrap;
+    flex-basis: 720px;
+    line-height: 1.5;
+    /* margin-top: 15px; */
+}
+table {
+    background-color: brown;
+    border-collapse: collapse;
+    border: 3px double black;
+    margin: 10px;
+    padding: 10px;
+    width: 500px;
+    height: 400px;
+    text-align: center;
+}
+th {
+    background-color: aquamarine;
+    height: 60px;
+    border: 1px solid black;
+    padding: 15px;
+}
+tr,
+td {
+    height: 30px;
+    border: 1px dashed black;
+    padding: 10px;
+}
