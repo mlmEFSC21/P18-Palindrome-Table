@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="palindrome.css" />
+        <script defer src="palindrome.js"></script>
+        <title>Palindrome Table</title>
+    </head>
+    <body>
+        <header class="mainHeader">
+            <h1>Is it a Palindrome?</h1>
+        </header>
+        <div class="mainContent">
+            <div class="formContainer" id="formContainer">
+                <form class="palindromeForm" id="palindromeForm">
+                    <label for="stringInput">Please enter five words.</label>
+                    <input
+                        type="text"
+                        name="stringInput"
+                        class="stringInput"
+                        id="stringInput"
+                        required
+                    />
+                    <button type="submit" class="submit-btn" id="submit-btn">Submit</button>
+                </form>
+            </div>
+            <div class="tableContainer" id="tableContainer">
+                <div class="definition">
+                    <h3>
+                        <p>Q: What is a palindrome?</p>
+                        <p>
+                            A: A palindrome is word, number, phrase, or other sequence of characters
+                            which reads the same backward as forward.
+                        </p>
+                        <p>Example: Racecar => racecaR</p>
+                    </h3>
+                </div>
+                <table>
+                    <caption>
+                        Palindrome Table
+                    </caption>
+                    <thead>
+                        <tr>
+                            <th>String</th>
+                            <th>Palindrome?</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="string">S1</td>
+                            <td class="yes-no">YES</td>
+                        </tr>
+                        <tr>
+                            <td class="string">S2</td>
+                            <td class="yes-no">No</td>
+                        </tr>
+                        <tr>
+                            <td class="string">S3</td>
+                            <td class="yes-no">YES</td>
+                        </tr>
+                        <tr>
+                            <td class="string">S4</td>
+                            <td class="yes-no">NO</td>
+                        </tr>
+                        <tr>
+                            <td class="string">S5</td>
+                            <td class="yes-no">Yes</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
