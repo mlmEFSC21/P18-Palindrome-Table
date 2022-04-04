@@ -12,7 +12,6 @@ function populateStringArray(e) {
     addStringToTable(index);
     if (index >= 4) {
         testForPalindromes();
-        stringInput.value = "";
     } else {
         stringInput.value = "";
         index++;
@@ -32,6 +31,5 @@ function testForPalindromes() {
         } else {
             td_Yes_No[counter].innerText = "No";
         }
-        counter++;
     }
 }

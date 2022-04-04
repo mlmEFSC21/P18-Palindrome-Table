@@ -6,11 +6,11 @@
     padding: 0;
 }
 body {
-    height: 100vh;
-    text-shadow: 0.5px 0.5px 2px whitesmoke;
+    text-shadow: 2px 3px 5px whitesmoke;
     font-size: 1.25rem;
-    background-image: linear-gradient(225deg, #c88537 25%, #c2c837 60%, #c83d37 85%);
+    background: linear-gradient(45deg, #c88537 15%, #c2c837 50%, #c83d37 75%);
     background-repeat: no-repeat;
+    backgroun
 }
 header {
     display: flex;
@@ -32,9 +32,6 @@ form {
     justify-content: center;
     align-items: center;
 }
-label {
-    font-weight: 600;
-}
 input {
     margin: 10px;
     height: 25px;
@@ -42,13 +39,13 @@ input {
 button {
     height: 30px;
     width: 75px;
-    background-color: #d39d5e;
+    background-color: rgba(125, 125, 255, 1);
     font-size: 1.1rem;
     font-weight: 600;
     border-radius: 3px;
 }
 button:hover {
-    background-color: #8f5f27;
+    background-color: rgba(135, 190, 255, 0.75);
 }
 .tableContainer {
     display: flex;
@@ -69,25 +66,25 @@ table {
     margin: 10px;
     padding: 10px;
     width: 500px;
-    height: 300px;
+    height: 400px;
     text-align: center;
     font-weight: 700;
 }
 th {
-    height: 50px;
+    height: 60px;
     border: 1px solid black;
-    padding: 10px;
-    background-color: #cd4e49;
+    padding: 15px;
+    background-color: #c477fc;
 }
 tr,
 td {
     height: 30px;
-    border: 1px solid black;
+    border: 1px dashed black;
     padding: 5px;
 }
 tr {
-    background-color: #c8cd49;
+    background-color: #e0b0cf;
 }
 tr:nth-child(even) {
-    background-color: #d39d5e;
+    background-color: #a49ff8;
 }

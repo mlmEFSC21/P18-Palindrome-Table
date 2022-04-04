@@ -12,7 +12,6 @@ function populateStringArray(e) {
     addStringToTable(index);
     if (index >= 4) {
         testForPalindromes();
-        stringInput.value = "";
     } else {
         stringInput.value = "";
         index++;
